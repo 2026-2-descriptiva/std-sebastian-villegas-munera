@@ -1,6 +1,3 @@
-# tests/test_src.py
-import os
-
 from ..src.word_count_2 import *
 
 DATA_FOLDER = "PRE_02_mapreduce/data"
@@ -33,3 +30,4 @@ def test_01():
     assert result["business"] == 7000
     assert result["by"] == 3000
     assert result["algorithms"] == 2000
+    assert result["analysis"] == 4000

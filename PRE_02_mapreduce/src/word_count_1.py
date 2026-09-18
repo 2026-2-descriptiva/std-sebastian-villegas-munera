@@ -73,9 +73,9 @@ for _, line in sequence:
 
 pairs_sequence = sorted(pairs_sequence)
 
-# from pprint import pprint
+# from pprint import pprint
 
-# pprint(pairs_sequence[:5])
+# pprint(pairs_sequence[:5])
 
 
 # Reducer
@@ -114,8 +114,6 @@ with open(f"{OUTPUT_FOLDER}/_SUCCESS", "w", encoding="utf-8") as f:
 
 end_time = time.time()
 print(f"Tiempo de ejecución: {end_time - start_time:.2f} segundos")
-
-
 
 
 

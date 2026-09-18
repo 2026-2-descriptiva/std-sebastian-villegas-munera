@@ -1,6 +1,6 @@
+import glob
 import os.path
 import string
-import glob
 import time
 
 DATA_FOLDER = "PRE_02_mapreduce/data"
@@ -140,3 +140,5 @@ def main():
 
 
 if __name__ == "__main__":
+
+    main()
